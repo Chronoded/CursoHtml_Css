@@ -1,0 +1,11 @@
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.8rem;
+}
+
+/* Usar rem en texto al ser una medida absoluta, el navegador se adaptara y cambiara el tamaño de fuente por usuario */

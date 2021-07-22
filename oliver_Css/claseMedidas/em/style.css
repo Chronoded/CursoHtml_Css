@@ -1,0 +1,7 @@
+/* .text-container{                            em = es igual al elemento, si el elemento es de 16px, 2 em serian el doble, sin embargo hereda, 
+    font-size: 1.5em;                                 por ello hay que utilizarlo con cuidado
+} */
+.text-container div{
+    font-size: 1.5em;
+}
+

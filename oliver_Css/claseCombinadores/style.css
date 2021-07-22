@@ -1,0 +1,15 @@
+ /* h2 + p {                            /* combinador hermano cercano 
+    color: red; 
+} */
+
+/*h2~p{                                 combinador hermano general (mientras haya un h2 como hermano, todos los otros p aplicaran)
+    color: red;
+}*/
+                                        
+/* div > p{                                 Child  padre-hijo(todas las p que sean hijos directos de div se le aplica el estilo)
+    color: red;
+} */
+
+/* div p{                                        descendiente
+    color: red;
+} */

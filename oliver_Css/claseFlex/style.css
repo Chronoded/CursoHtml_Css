@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;                                /*para el uso de rem como pixeles*/
+}
+body{
+    font-size: 1.6rem;
+}
+
+.container{                                            /* como el padre tiene display flex, se comportan distinto*/
+    border: 0.3rem solid black;  
+    display: flex; 
+    flex-wrap: wrap;
+
+   /* justify-content: space-evenly;          
+    /*flex-wrap: wrap;                                     dependiendo del tamaño del width se ajusta solo*/
+    /* flex-direction: column;                            cambio del display para ponerlo en columnas
+    flex-direction: row-reverse;                       cambio del display para ponerlo fila pero al reves
+    flex-direction: column-reverse */
+}
+.box{
+    flex-basis: 10rem;
+    height: 10rem;
+    flex-grow: 1;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color:blueviolet;
+}
+
+.box3{
+    background-color:brown;
+}
+.box4{
+    background-color:coral;
+}
+.box5{
+    background-color:cornflowerblue;
+   
+}
+.box6{
+    background-color:darkkhaki;
+ 
+}
+
+/* justify-content: center;     acomoda en medio gracias al display
+justify-content: flex-start y end lo acomoda al start o al end;   
+justify-content: space-around;     da espacio entre divs con display
+justify-content: space-evenly;     da espacio IGUAL a otods los divs
+order (al poner un order en alguna box, se acomodan respecto a ello, si alguna box, no lo tiene,se iran a al izquierda
+flex-grow, se come es espacio sobrante para atribuirselo a alguna box
+align items sirve para ordenar todas las box hacia donde yo lo indique, como tambien hacer stretch y baseline
+
+--- HACER UN DIV RESPONSIVE---
+  flex-basis: 10rem;
+    height: 10rem;
+    flex-grow: 1;
+*/
+
+
+

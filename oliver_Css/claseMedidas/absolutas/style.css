@@ -1,0 +1,9 @@
+main{                                    /*  overflow=cuando el width genera un scroll por salirse del tamaño*/
+    background-color: red;
+    width: 600px;
+    height: 500px;
+}
+p{
+    font-size: 60px;
+
+}

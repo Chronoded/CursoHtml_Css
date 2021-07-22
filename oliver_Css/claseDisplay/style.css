@@ -1,0 +1,28 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+.block-element{
+    background-color: slateblue;
+    margin: 10px;
+    padding: 20px;
+
+}
+.nav{
+    background-color: darksalmon;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+
+/* display block(Utiliza 100% del espacio del width en el contenido) */
+/* display inline (no puede utilizar el margin de arriba o abajo, ni width ni heigh, pero pone las cosas en la misma linea)
+/*inline block es lo mejor del block y el inline*/

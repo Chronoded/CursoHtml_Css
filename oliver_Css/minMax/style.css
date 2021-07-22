@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+main{                                                       /* vw se refiere al 100% de viewWidth vh se refiere al 100% del viewHeight*/
+    width: 100vw;                                             
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+section{                                                           
+    width: 80%;                                               /*   no se hara mas chico que 320px, no se hara mas grande que 500 px, */
+    min-width: 320px;                                           /* y el min height arregla el overflow del height, mas el tamañoo */
+    max-width: 500px;                                    
+    min-height: 500px;                                         
+    background-color: brown;
+    margin: 0 auto;
+}

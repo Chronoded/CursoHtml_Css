@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 12vh;
+}
+.content-header{
+    background-color: #A67041;
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+}
+.nav{                                                  /*  con position absolute mas el right acomodas en la esquina*/
+    position: absolute;
+    right: 0;
+    width: 500px;
+    background-color: #402B18;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.nav li{
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px 20px ;
+}
+main{
+    height: 80vh;
+}
+.logo, .nav, .nav list{                                  /*a si se acomoda un header con nav a su lado*/
+    display: inline-block;
+    margin-right: 5px;
+}
+.logo{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section {
+    position: absolute;
+    background-color:#F2CDA0;
+    width: 80vw;
+}
+aside, section{
+    display: inline-block;
+    height: 80vh;
+    padding: 0px;
+}
+aside{
+    background-color: #6BB7BF;
+    width: 20vw;
+    
+}
+
+aside div{
+    display: block;
+    background-color: #D9A566;
+    height: 17vh;   
+    margin: 2vh; 
+    border-radius: 10px;
+}
+
+footer{
+    height: 8vh;
+    background-color: #A67041;
+}
+.footer-social,.footer-info{
+    display: inline-block;
+    margin: 25px 15px;
+    font-size: 20px;
+    color: white;
+}
+.footer-info{
+    position: absolute;
+    right: 0;
+}
+.lorem{
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+/* utilizar VH para manejar el 100% de la altura de la pantalla (Dividirlo entre el header,main,footer)
+acomodarlos en la misma linea con inline-block utilizando dos clases
+position absolute y despues utilizando, left, right, bottom y top, para acomodar a los extremos */

@@ -1,0 +1,12 @@
+*{                                      /*Universal*/  
+    box-sizing: border-box;             /*La respuesta a tus problemas noobs, suma o resta el padding y el border al width y heigh para evitar scroll*/
+    padding: 0;                       
+    margin: 0;                          /*mantener cuidado con el margin */
+}
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+
+}
